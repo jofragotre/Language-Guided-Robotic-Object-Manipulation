@@ -6,7 +6,7 @@ This project implements a simple pipeline for zero-shot object detection using l
 - Accelerate SAM with lightweight Ultralytics models for live use.
 - Implement Non-Maximum Suppression (NMS) for handling multiple detections of the same object.
 - Integrate a detection model with support for more classes (e.g., SAM) since YOLO's pretrained model supports only 80 classes, or alternatively, train a custom detection model.
-```
+
 
 ## Features
 - **Zero-Shot Object Detection**: Detect objects in images without requiring task-specific training.
