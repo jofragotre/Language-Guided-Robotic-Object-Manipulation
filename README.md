@@ -1,10 +1,8 @@
-```markdown
 # Language-Guided-Zero-Shot-Object-Detection
 
 This project implements a simple pipeline for zero-shot object detection using language guidance. It combines a VLM model in this case OpenAI's CLIP for image-text similarity and YOLO for object detection, enabling the detection and classification of objects in images based on natural language prompts.
 
 ## TODO:
-```markdown
 - Accelerate SAM with lightweight Ultralytics models for live use.
 - Implement Non-Maximum Suppression (NMS) for handling multiple detections of the same object.
 - Integrate a detection model with support for more classes (e.g., SAM) since YOLO's pretrained model supports only 80 classes, or alternatively, train a custom detection model.
